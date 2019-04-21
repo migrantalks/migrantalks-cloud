@@ -1,0 +1,12 @@
+# 8092 8093
+server:
+  port: 8092
+
+spring:
+  application:
+    name: cloud-client
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8091/eureka/
